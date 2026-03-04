@@ -43,6 +43,10 @@ The script will list available licenses in your tenant, prompt you to pick one, 
 
 A `_results.csv` file is saved alongside the input file with the outcome for each address.
 
+## Planned features
+
+- Check if a user already has a license and not assign it or ask if it should assign the new one.
+
 ## Notes
 
 - License assignment is handled through Microsoft Graph, not the Exchange Online module. You do not need to be connected to EXO to run this script.
